@@ -1,0 +1,41 @@
+{
+    "developer_name": "puru panta",
+    "developer_email": "purupanta[@]uky.edu",
+    "last_modified": "2/12/2025",
+    "config_json": "AppConfig.json",
+
+    "google_drive_mount": "/content/drive",
+    "project_location": "drive/MyDrive/Colab Notebooks/HINTS6Finale",
+
+    "requirements_file_name": "/requirements.txt",
+
+    "app_lib_path": "/lib",
+    "app_lib_filename": "/AppLib.py",
+
+    "ip_data_dir": "/ip_data",
+    "ip_file_name": "/hints6_public.xlsx",
+    "ip_file_sheet_name": "hints6_public",
+
+    "op_data_dir": "/op_data",
+    "op_file_name": "/op_hints6_public.xlsx",
+    "op_file_sheet_name": "hints6_public",
+    "op_file_name_cleaned": "/op_hints6_public_cleaned.xlsx",
+    "op_file_sheet_name_cleaned": "hints6_public_cleaned",
+
+    "study_cols": {
+        "target_cols": ["MedConditions_HeartCondition"],
+        "predictor_cols": [
+            "Age", "BirthGender", "MedConditions_HighBP", "GeneralHealth",
+            "MedConditions_Diabetes", "MedConditions_LungDisease", "PHQ4",
+            "AvgDrinksPerWeek", "WeeklyMinutesModerateExercise", "EverHadCancer",
+            "AverageTimeSitting", "FreqGoProvider"
+        ],
+        "predictor_cols0": [
+            "MedConditions_Depression", "AverageSleepNight", "BMI",
+            "smokeStat", "Deaf"
+        ],
+        "predictor_cols1": [
+            "DrinksPerDay", "Smoke100", "SmokeNow", "TimesModerateExercise"
+        ]
+    }
+}
